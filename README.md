@@ -76,7 +76,15 @@ Notation for set comprehension is similar to that for list comprehension:
 
 ```python
 {x for x in range(10)}
+# {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 ```
+
+```python
+{x*(-1) for x in range(10)}
+# Order not preserved!
+# {0, -2, -9, -8, -7, -6, -5, -4, -3, -1}
+```
+
 
 ### Dictionary comprehension
 
@@ -84,10 +92,12 @@ Again, this is similar to list comprehension:
 
 ```python
 {x: x**2 for x in range(4)}
+# {0: 0, 1: 1, 2: 4, 3: 9}
 ```
 
 ```python
 {index: number for index, number in enumerate(range(4))}
+# {0: 0, 1: 1, 2: 2, 3: 3}
 ```
 
 Watch out for the placement of the ':'.
