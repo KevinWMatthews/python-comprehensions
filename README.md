@@ -30,10 +30,10 @@ or more generally
 
 Python will:
 
-    * iterate over the *input_sequence*
-    * place each member of the input sequence in *variable*
-    * process *output_expression* if *conditional* is met
-    * store resulting sequence in a new object (list, set, dict)
+  * iterate over the *input_sequence*
+  * place each member of the input sequence in *variable*
+  * process *output_expression* if *conditional* is met
+  * store resulting sequence in a new object (list, set, dict)
 
 The `conditional` is used to filter the input sequence, much like `filter()`.
 The `output_expression` is used to transform the members of the `input_sequence`, much like `map()`.
@@ -105,6 +105,6 @@ Note the placement of the colon (':').
 
 ## Links
 
-    * [Python3 Documentation](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
-    * [Python 3 Patterns, Recipes, and Idioms](https://python-3-patterns-idioms-test.readthedocs.io/en/latest/Comprehensions.html)
-    * [Stack Overflow](https://stackoverflow.com/questions/34835951/what-does-list-comprehension-mean-how-does-it-work-and-how-can-i-use-it)
+  * [Python3 Documentation](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
+  * [Python 3 Patterns, Recipes, and Idioms](https://python-3-patterns-idioms-test.readthedocs.io/en/latest/Comprehensions.html)
+  * [Stack Overflow](https://stackoverflow.com/questions/34835951/what-does-list-comprehension-mean-how-does-it-work-and-how-can-i-use-it)
