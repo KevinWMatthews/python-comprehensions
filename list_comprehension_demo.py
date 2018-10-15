@@ -1,8 +1,3 @@
-print('[x for x in range(10) if x > 0]')
-result = [x for x in range(0, 10) if x > 0]
-print(result)
-print('')
-
 print('[x for x in range(10)]')
 result = [x for x in range(10)]
 print(result)

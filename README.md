@@ -21,40 +21,36 @@ or more generally
 
 ## Python Syntax
 
-### List comprehension
-
-Python's syntax for list comprehension is:
-```
-[x for x in range(10) if x > 0]
-# [1, 2, 3, 4, 5, 6, 7, 8, 9]
-```
+Python's syntax for comprehensions in general is:
 or more generally
+
 ```
-<new_list> = [<output_expression> for <variable> in <input_sequence> <conditional>]
+<output_expression> for <variable> in <input_sequence> <conditional>
 ```
 
 Python will:
 
-    * iterate over the `input_sequence`
-    * place the member of the input sequence in `variable`
-    * process `output_expression` if `conditional` is met
-    * store resulting sequence in a `new_list`
+    * iterate over the *input_sequence*
+    * place each member of the input sequence in *variable*
+    * process *output_expression* if *conditional* is met
+    * store resulting sequence in a new object (list, set, dict)
 
 The `conditional` is used to filter the input sequence, much like `filter()`.
 The `output_expression` is used to transform the members of the `input_sequence`, much like `map()`.
 
+This expression **must** be placed within a list, set, or dict!
+It is not valid syntax on its own.
 
-### Examples
+
+### List comprehension
 
 All numbers in range:
-
 ```python
 [x for x in range(10)]      # an empty conditional captures all items of the input sequence
 [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
 All numbers in range that are greater than 5:
-
 ```python
 [x for x in range(10) if x > 5]
 # [6, 7, 8, 9]
