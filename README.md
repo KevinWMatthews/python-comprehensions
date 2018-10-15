@@ -100,7 +100,7 @@ Again, this is similar to list comprehension:
 # {0: 0, 1: 1, 2: 2, 3: 3}
 ```
 
-Watch out for the placement of the ':'.
+Note the placement of the colon (':').
 
 
 ## Links
