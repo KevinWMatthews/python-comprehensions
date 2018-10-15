@@ -105,6 +105,6 @@ Note the placement of the colon (':').
 
 ## Links
 
-[Python3 Documentation](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
-[Python 3 Patterns, Recipes, and Idioms](https://python-3-patterns-idioms-test.readthedocs.io/en/latest/Comprehensions.html)
-[Stack Overflow](https://stackoverflow.com/questions/34835951/what-does-list-comprehension-mean-how-does-it-work-and-how-can-i-use-it)
+    * [Python3 Documentation](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
+    * [Python 3 Patterns, Recipes, and Idioms](https://python-3-patterns-idioms-test.readthedocs.io/en/latest/Comprehensions.html)
+    * [Stack Overflow](https://stackoverflow.com/questions/34835951/what-does-list-comprehension-mean-how-does-it-work-and-how-can-i-use-it)
